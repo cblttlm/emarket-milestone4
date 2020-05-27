@@ -1,0 +1,36 @@
+<br>
+<br>
+<br>
+<div class = "m-2">
+  <div class = "form-group">
+    <label>Name</label>
+    <input class ="form-control" [(ngModel)]="newProduct.itemName" />
+  </div>
+  <div class = "form-group">
+    <label>Category</label>
+    <input class ="form-control" [(ngModel)]="newProduct.categoryId" />
+  </div>
+  <div class = "form-group">
+    <label>subCategory</label>
+    <input class ="form-control" [(ngModel)]="newProduct.subCategoryId" />
+  </div>
+  <div class = "form-group">
+    <label>Price</label>
+    <input class ="form-control" [(ngModel)]="newProduct.price" />
+  </div>
+  <div class = "form-group">
+    <label>Number</label>
+    <input class ="form-control" [(ngModel)]="newProduct.stockNumber" />
+  </div>
+  <div class = "form-group">
+    <label>Discription</label>
+    <input class ="form-control" [(ngModel)]="newProduct.discription" />
+  </div>
+  <div class = "form-group">
+    <label>remarks</label>
+    <input class ="form-control" [(ngModel)]="newProduct.remarks" />
+  </div>
+  <button class="btn btn-primary" (click)="addProduct(newProduct)" >Create</button>
+</div>
+
+

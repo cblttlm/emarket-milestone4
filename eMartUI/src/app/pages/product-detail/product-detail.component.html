@@ -1,0 +1,15 @@
+<br>
+<br>
+<br>
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <div class="card text-black-50 bg-info mb-3" style="width: 18rem;">
+  <img [src]="product.remarks" class="card-img-top" alt="...">
+  <h3>{{ product.itemName }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <h5>{{ product.stockNumber }}</h5>
+  <h6>{{ product.discription }}</h6>
+  </div>
+  <button class="btn btn-primary btn-lg active" (click)="addToCart(product)">Add to Cart</button>
+</div>
