@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: BaoLingChen
+Build-Jdk: 11.0.5
+Implementation-Title: cloud-admin-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.emarket
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/emarket/cloud-
+ admin-service/
+Created-By: Maven Integration for Eclipse
+

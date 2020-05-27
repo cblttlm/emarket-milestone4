@@ -1,0 +1,65 @@
+package com.emarket.emarket.service;
+
+import java.util.List;
+
+import org.springframework.data.domain.Page;
+
+import com.emarket.emarket.entity.UserEntity;
+
+public interface UserService {
+
+	/**
+	 * 7VR32iQ/SC;'AP1m
+	 *
+	 * @param page
+	 * @param pageSize
+	 * @return
+	 */
+	public Page<UserEntity> findAll(int page, int pageSize);
+
+	/**
+	 * 2iQ/KySPSC;'AP1m
+	 *
+	 * @return
+	 */
+	public List<UserEntity> findAllUsers();
+
+	/**
+	 * 8y>]ID2iQ/R;8vSC;'
+	 *
+	 * @param
+	 * @return
+	 */
+	public UserEntity findUserById(Integer id);
+
+	/**
+	 * W"2aR;8vSC;'
+	 *
+	 * @param user
+	 * @return
+	 */
+	public UserEntity registUser(UserEntity user);
+
+	/**
+	 * 8|PBSC;'PEO"
+	 *
+	 * @param user
+	 * @return
+	 */
+	public UserEntity updateUser(UserEntity user);
+
+	/**
+	 * <$;nSC;'
+	 *
+	 * @param id
+	 * @return
+	 */
+	public UserEntity activeUser(Integer id);
+
+	/**
+	 * I>3}R;8vSC;'
+	 *
+	 * @param id
+	 */
+	public void delete(Integer id);
+}
